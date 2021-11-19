@@ -1,2 +1,2 @@
-# my-blogs
-I write blogs hahaha
+# Blogs
+I host my blogs with github!
