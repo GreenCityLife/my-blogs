@@ -1,7 +1,13 @@
 body {
   padding: 18px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
-.header p {
+.desc {
  font-size: 18px;
+ margin-top: 15px;
 }
