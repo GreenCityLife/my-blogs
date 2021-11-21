@@ -1,14 +1,13 @@
 .content {
     width: 100vw;
-    height: 100vh;
+    height: min-content;
     overflow: hidden;
     font-size: 1em;
-    padding: 0;
+    padding: 20px;
     margin: 0;
     display: flex;
     align-items: center;
     align-content: center;
-    justify-content: center;
     text-align: center;
     flex-direction: column;
 }
@@ -21,4 +20,31 @@
 
 .content h1 {
     font-size: 30px;
+}
+
+.col-md-4 {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    background-color: #eeeeee;
+    padding: 30px;
+    border-radius: 10px;
+    border-color: #4CAF50;
+    border: 1000px;
+    margin-bottom: 10px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.col-md-4 a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+body {
+    overflow-x: hidden;
 }
